@@ -1,0 +1,77 @@
+#main {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #121212;
+  color: #eee;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+#main img {
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(255, 69, 0, 0.7);
+  transition: transform 0.3s ease;
+}
+#main img:hover {
+  transform: scale(1.05);
+}
+
+#main p {
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+#main p:first-of-type {
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #ff4500; /* cam rực rỡ cho tên phim */
+}
+
+#main p span.highlight {
+  color: #ffd700; /* màu vàng nổi bật */
+  font-weight: 600;
+}
+
+#main p.date {
+  font-weight: 700;
+  color: #ffcc00;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+#main p.vote {
+  font-weight: 600;
+  color: #ffa500;
+  font-size: 18px;
+}
+
+#main p.country {
+  margin-top: 20px;
+  font-style: italic;
+  color: #bbb;
+}
+
+#main p.overview {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 20px;
+  color: #ddd;
+}
+
+@media (max-width: 600px) {
+  #main {
+    padding: 20px 15px;
+  }
+  #main img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
